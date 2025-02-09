@@ -1,5 +1,4 @@
 import {FC} from "react";
-import {Params} from "next/dist/server/request/params";
 
 type Props = {
     searchParams:Promise<{
