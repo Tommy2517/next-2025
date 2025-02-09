@@ -8,14 +8,11 @@ const Menu = () => {
                     <Link href={'/'}>home</Link>
                 </li>
                 <li>
-                    <Link href={'/users'}>users</Link>
+                    <Link href={'/cars'}>cars</Link>
                 </li>
-                {/*<li>*/}
-                {/*    <Link href={'/'}>home</Link>*/}
-                {/*</li>*/}
-                {/*<li>*/}
-                {/*    <Link href={'/'}>home</Link>*/}
-                {/*</li>*/}
+                <li>
+                    <Link href={'/create'}>create car</Link>
+                </li>
             </ul>
         </div>
     );

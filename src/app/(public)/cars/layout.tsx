@@ -1,17 +1,18 @@
 import type {Metadata} from "next";
 import React from "react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "UsersLayout",
+    title: "CarLayout",
     description: "",
 };
 type Props = {
     children: React.ReactNode;
 }
-export default function UsersLayout({children}: Props) {
+export default function CarLayout({children}: Props) {
     return (
         <div>
-            users Layout
+            <Link href={'/'} >home</Link>
             {children}
         </div>
     );
